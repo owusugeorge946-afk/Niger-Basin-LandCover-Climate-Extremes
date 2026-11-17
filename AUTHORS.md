@@ -1,6 +1,6 @@
 # Authors and affiliations
 
-This repository accompanies the manuscript submitted for consideration to *Remote Sensing Applications: Society and Environment*.
+This repository accompanies a manuscript being prepared for submission to *Remote Sensing Applications: Society and Environment*.
 
 **George Owusu Amoah**<sup>a,*</sup> · **Rubayet Bin Mostafiz**<sup>b</sup> · **Rachel Olawoyin**<sup>a</sup> · **Francis Quayson**<sup>c,d</sup>
 
