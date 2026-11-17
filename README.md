@@ -76,7 +76,7 @@ This repository is for reproducibility, **not** a claim of scientifically indepe
 
 ### Licensing
 
-No software license has been assigned automatically. Before making the repository public, the authors should agree on a suitable license (e.g. MIT or BSD for original code) and confirm third-party data and code rights. Without a license, standard copyright restrictions apply.
+No software license has been assigned automatically. Because this repository is public, the authors should agree on a suitable license (e.g. MIT or BSD for original code) and confirm third-party data and code rights. Without a license, standard copyright restrictions apply.
 
 ### Suggested citation
 
