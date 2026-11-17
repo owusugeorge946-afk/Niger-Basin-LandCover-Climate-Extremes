@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "analysis_period": "1995–2005",
+  "land_cover_period": "1992–2020",
+  "main_grid_cells": 2661,
+  "expected_outputs": {
+    "figures": 9,
+    "tables": 12
+  },
+  "required_files": {
+    "04_Basin_Adjusted_Fractions": [
+      "Basin_Adjusted_Grid_Fractions.csv",
+      "Basin_Adjusted_Transition_Fractions.csv",
+      "Transition_Area_Summary.csv"
+    ],
+    "05_Grid_Coverage_QC": [
+      "Main_Analysis_Grid_Coverage90.csv",
+      "Boundary_Coverage_Sensitivity.csv",
+      "Niger_Grid_Coverage_QC.tif"
+    ],
+    "06_Climate_Unit_Audit": [
+      "All_150_Daily_File_Calendar_Audit.csv"
+    ],
+    "10_Full_Basin_CHIRPS_Validation": [
+      "CHIRPS_Full_Basin_Spatial_Climatology.csv",
+      "CHIRPS_Full_Basin_Period_Metrics.csv",
+      "CHIRPS_Latitudinal_Zone_Comparison.csv"
+    ],
+    "11_Spatial_Confounding_Audit": [
+      "Spatially_Adjusted_Associations.csv",
+      "Outlier_Sensitivity.csv"
+    ],
+    "12_Recomputed_Absolute_Extremes": [
+      "Five_Extreme_Index_Bias_Summary.csv",
+      "Recomputed_Climatological_Extreme_Biases.csv",
+      "Latitude_Zone_Extreme_Biases.csv",
+      "Original_vs_Recomputed_Extremes.csv"
+    ],
+    "13_Percentile_Temperature_Extremes": [
+      "Recomputed_Percentile_Index_Biases.csv",
+      "Four_Percentile_Index_Bias_Summary.csv"
+    ]
+  },
+  "external_files": [
+    "Niger_Figure_6_Data/Niger_ERA5Land_Surface_Mechanisms_1995_2005.tif",
+    "Niger_ERA5_Daily_1995_2005/ERA5_TX_1995.tif"
+  ],
+  "observational_provenance": {
+    "daily_ERA5_CMCC": "Source-to-raster check: 108 paired values at 6 climate cells on 3 dates; differences <=1.53e-6 in temperature and <=7.75e-7 mm/day in precipitation",
+    "ERA5_Land": "Five bands checked at six pixels against ECMWF/ERA5_LAND/MONTHLY_AGGR, equal-month means; sensible and latent upward-positive"
+  }
+}
