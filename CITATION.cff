@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this repository or its archived release."
+title: "Niger Basin land-cover and climate-product reproducibility code"
+type: software
+authors:
+  - family-names: "Amoah"
+    given-names: "George Owusu"
+    affiliation: "Department of Geography and Regional Planning, University of Cape Coast, Cape Coast, Ghana"
+  - family-names: "Mostafiz"
+    given-names: "Rubayet Bin"
+    affiliation: "LaHouse Research & Education Center, Department of Biological and Agricultural Engineering, Louisiana State University Agricultural Center, Baton Rouge, Louisiana, USA"
+  - family-names: "Olawoyin"
+    given-names: "Rachel"
+    affiliation: "Department of Geography and Regional Planning, University of Cape Coast, Cape Coast, Ghana"
+  - family-names: "Quayson"
+    given-names: "Francis"
+    affiliation: "Department of Land Surveying and Geospatial Science; Research Institute for Land and Space, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China"
+repository-code: "https://github.com/owusugeorge946-afk/Niger-Basin-LandCover-Climate-Extremes"
