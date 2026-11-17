@@ -4,6 +4,12 @@
 
 > **Interpretive restriction:** Associations reported in this study are **spatial, observational, and noncausal**. The 1992–2020 land-cover transition period does not align with the 1995–2005 climate evaluation period. The CMCC-ESM2 NEX-GDDP-CMIP6 product is statistically downscaled/bias-corrected; these results are not controlled land–atmosphere perturbation experiments.
 
+## Authors and affiliations
+
+**George Owusu Amoah** (University of Cape Coast, Ghana; corresponding author), **Rubayet Bin Mostafiz** (Louisiana State University Agricultural Center, USA), **Rachel Olawoyin** (University of Cape Coast, Ghana), and **Francis Quayson** (The Hong Kong Polytechnic University, Hong Kong, China).
+
+For full affiliation addresses, corresponding-author contact details, and the authors' CRediT roles, see [AUTHORS.md](AUTHORS.md). GitHub's citation panel uses [CITATION.cff](CITATION.cff).
+
 ## What this repository contains
 
 - `run.py` — preflight validator and publication-build entry point.
@@ -19,11 +25,11 @@
 ## Reproduce figures and tables in Google Colab
 
 1. Create a Colab notebook, mount the Google Drive account that contains `Niger_Basin_Reviewer1_Revision` and the `Niger_ERA5_Daily_1995_2005` and `Niger_Figure_6_Data` directories.
-2. Clone this repository (replace the placeholder with the **actual repository URL after you upload it**):
+2. Clone this repository (using the actual repository URL):
 
    ```bash
-   !git clone https://github.com/YOUR-ACCOUNT/YOUR-REPOSITORY.git
-   %cd YOUR-REPOSITORY
+   !git clone https://github.com/owusugeorge946-afk/Niger-Basin-LandCover-Climate-Extremes.git
+   %cd Niger-Basin-LandCover-Climate-Extremes
    !pip install -r requirements.txt
    ```
 
@@ -74,4 +80,4 @@ No software license has been assigned automatically. Before making the repositor
 
 ### Suggested citation
 
-Owusu Amoah, G., Mostafiz, R.B., Olawoyin, R., & Quayson, F. *Niger River Basin land-cover and climate-product comparison scripts* [software]. GitHub repository (unpublished, version to be assigned). **Do not invent a DOI or describe the manuscript as published.**
+Owusu Amoah, G., Mostafiz, R.B., Olawoyin, R., & Quayson, F. *Niger River Basin land-cover and climate-product comparison scripts* [software]. GitHub repository, initial code pre-release v0.1.0. **No DOI has been assigned; do not describe the manuscript as published.**
